@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Submit Order(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ecoss.Test.PurchaseOrderTest">
+        <methods>
+          <include name="ClosingBrowser"/>
+          <include name="OrderVerification"/>
+          <include name="RegisterAccount"/>
+          <include name="SubmitOrder"/>
+          <include name="LaunchingSystem"/>
+        </methods>
+      </class> <!-- ecoss.Test.PurchaseOrderTest -->
+    </classes>
+  </test> <!-- Submit Order(failed) -->
+</suite> <!-- Failed suite [Suite] -->

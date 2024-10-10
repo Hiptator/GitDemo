@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Positive Test">
+
+<listeners>
+	<listener class-name="ecoss.TestComponents.Listeners"></listener>
+</listeners>
+
+  <test thread-count="1" name="Submit Order">
+
+  <groups>
+	<run>
+		<include name="Sanity"></include>
+	</run>
+</groups>
+  
+    <classes>
+      <class name="ecoss.Test.PurchaseOrderTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
