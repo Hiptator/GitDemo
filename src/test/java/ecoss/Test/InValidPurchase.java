@@ -7,7 +7,7 @@ import ecoss.TestComponents.BasedTest;
 public class InValidPurchase extends BasedTest {
 	
 	public void invalidUserLogin() throws IOException {
-		
+		int x = 2;
 	}
 
 }
